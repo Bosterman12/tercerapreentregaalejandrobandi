@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+header{display: grid;
+grid-template-columns: 25vw 75vw;
+grid-template-rows: 30vh;}
+h1{color: white;}
+h1{justify-content: left;}
+h1{text-align: left;}
+h1{font-size: 3rem;}
+
+h2{color: white;}
+h2{font-size: 1,5rem;}
+h2{justify-content: left;}
+h2{text-align: left;}
+ul{display: grid;
+grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+grid-template-rows: 5vh;}
+li{color: white;}
+li{font-size: 1rem;}
+li{text-align: center;}
+.imagen-h1{width: 20vw;height: 30vh}
+.imagen-index{height: 63vh;width: 100vw;background-image: url(../Images/Fondo.jpeg);}
+.caja-titulo{width: 80vw;height: 14vw;margin-left: -5vw;}
+.caja-titulo{background-color: black;}
+.caja-boton{background-color: red;width: 20vw;height: 5vh;}
+@media (max-width:768px){.caja-titulo{height: 28vw;}}
+@media (max-width:574px){h1{font-size: 2rem;}}
+@media (max-width:574px){h2{font-size: 1rem;}}
+@media (max-width:454px){.caja-titulo{height: 40vw;}}
+@media (max-width:718px){li{font-size: 0.8rem;}}
+.hero {height: 63vh;width: 100vw ;background-image: url(../Images/Fondo.jpeg);background-repeat: no-repeat;background-position: center;background-size: cover;}
